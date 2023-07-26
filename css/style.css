@@ -10,3 +10,21 @@
     url("Yekan-Font-master/Yekan.otf") format("opentype"),
     url("Yekan-Font-master/Yekan.ttf") format("truetype");
 }
+body {
+  direction: ltr;
+}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.995);
+  transition: all 0.4s;
+}
+#signin-sec {
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("img/stromae_by_arkus83_dbh9mlo-fullview.jpg");
+  background-size: cover;
+}
+
+.checkbox-1 {
+  margin: 20px;
+}
