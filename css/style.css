@@ -1,6 +1,9 @@
 * {
   font-family: "yekan";
 }
+body {
+  overflow-x: hidden;
+}
 @font-face {
   font-family: "Yekan";
   src: url("Yekan-Font-master/Yekan.eot");
