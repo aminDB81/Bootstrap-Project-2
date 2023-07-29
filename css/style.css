@@ -1,9 +1,6 @@
 * {
   font-family: "yekan";
 }
-body {
-  overflow-x: hidden;
-}
 @font-face {
   font-family: "Yekan";
   src: url("Yekan-Font-master/Yekan.eot");
@@ -31,7 +28,6 @@ body {
     ); /* Replace YYYYYY with the new background color code for collapsed menu */
   }
 }
-
 .nav-link {
   position: relative;
 }
@@ -50,14 +46,41 @@ body {
   opacity: 1;
 }
 
-#signin-sec {
-  width: 100%;
-  height: 500px;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("img/stromae_by_arkus83_dbh9mlo-fullview.jpg");
-  background-size: cover;
-}
 
 .checkbox-1 {
   margin: 20px;
+}
+.bg-photo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/2560x1600.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 500px; /* Set a height to the photo section */
+  position: relative;
+  
+}
+
+.overlay {
+  padding: 30px;
+}   
+
+
+.overlay {
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the form inputs and button */
+.form-control {
+  border-radius: 0;
+}
+
+.btn-primary {
+  border-radius: 0;
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
 }

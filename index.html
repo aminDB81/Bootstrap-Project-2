@@ -17,7 +17,7 @@
       crossorigin="anonymous" />
     <title>Bootstrap Poject - 2</title>
   </head>
-  <body class="overflow-x-hidden">
+  <body class="overflow-x-hidden bg-body-secondary">
     <!-- this section for menu -->
     <section class="overflow-x-hidden">
       <nav
@@ -58,11 +58,12 @@
     </section>
 
     <!-- this section for sign up page -->
-    <section>
-      <div id="signin-sec" class="position-relative">
-        <div class="container py-5">
-          <div class="row position-absolute">
-            <div class="col-8 mt-5 text-light">
+    <section class="bg-photo">
+      <div class="overlay py-5">
+        <div class="container">
+          <div class="row">
+            <!-- Text Section - 8 Columns on Medium Screens and Above -->
+            <div class="mt-5 text-light col-12 col-md-8">
               <h1 class="ms-3">this website with bootstrap</h1>
               <div class="d-flex mt-5">
                 <div class="me-3 checkbox-1">
@@ -95,43 +96,31 @@
                 </p>
               </div>
             </div>
-            <div class="col-4 mt-3 signup-sec">
-              <!-- Your form content goes here -->
-              <div class="card w-75 shadow">
-                <div class="card-body p-4">
-                  <h3 class="text-center mb-4">Sign Up</h3>
-                  <form>
-                    <div class="mb-3">
-                      <label for="fullName" class="form-label">Full Name</label>
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="fullName"
-                        required />
-                    </div>
-                    <div class="mb-3">
-                      <label for="email" class="form-label">Email</label>
-                      <input
-                        type="email"
-                        class="form-control"
-                        id="email"
-                        required />
-                    </div>
-                    <div class="mb-3">
-                      <label for="password" class="form-label">Password</label>
-                      <input
-                        type="password"
-                        class="form-control"
-                        id="password"
-                        required />
-                    </div>
-                    <div class="d-grid gap-2">
-                      <button type="submit" class="btn btn-primary">
-                        Sign Up
-                      </button>
-                    </div>
-                  </form>
+
+            <!-- Signature Form - 4 Columns on Medium Screens and Above -->
+            <div class="col-12 col-md-4 d-flex mt-3 justify-content-center">
+              <div class="bg-light p-5 rounded-4">
+                <h2 class="text-center">Sing Up</h2>
+                <form>
+                  <div class="form-group">
+                    <label for="name">Name :</label>
+                    <input type="text" class="form-control mt-2" id="name"
+                      placeholder="Your Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="Username" class="mt-2">Username</label>
+                    <input type="Username" class="form-control mt-2" id="Username"
+                      placeholder="Your Username">
+                  </div>
+                  <div class="form-group">
+                    <label for="email" class="mt-2">Email</label>
+                    <input type="email" class="form-control mt-2" id="email"
+                      placeholder="Your Email">
+                  </div>
+                  <div class="d-flex justify-content-center">
+                  <button type="submit" class="btn btn-primary mt-3 ">Sign Up</button>
                 </div>
+                </form>
               </div>
             </div>
           </div>
@@ -437,7 +426,7 @@
 
           <!-- this sectionn for footer -->
           <section class="bg-dark">
-            <div class="container py-5 text-light">
+            <div class="container py-4 text-light">
               <div class="text-center">
                 <h1>Website</h1>
                 <p>copy right © 2023</p>
